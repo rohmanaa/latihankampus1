@@ -1,0 +1,261 @@
+
+body {
+	background: #fff;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+hr {
+	border:0;
+	background:#eee;
+	height:2px;
+}		
+ 
+header{
+	text-align: left;
+	color: white;
+	height:50px;
+	position:relative;
+	background-color:#000066;
+	padding-bottom:10px;
+	padding-top:5px;
+	margin-bottom:0;
+}
+ 
+header .judul{
+	font-size: 15pt;
+	margin-left :20px;
+}
+ 
+header .deskripsi{
+	font-size: 11pt;
+		margin-left :20px;
+}
+ 
+.wrap {
+	width: 100%;
+	margin:0 auto;
+}
+ 
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 100%;
+	margin:0 0 0;
+	background: #000000;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+ 
+nav.menu ul li {
+	margin:0;
+	float:left;
+
+}
+ 
+nav.menu ul a {
+
+	padding:15px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#000066;
+}
+ }
+
+.sidebar {
+	float:left;
+	width:290px;
+
+}
+ 
+.sidebar .widget {
+	padding:10px;
+	margin:0 0 0;
+	background:#fff;
+	height:500px auto;
+	
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#3498db;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+ 
+.sidebar .widget p {
+	font-size: 12px;
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+}
+ 
+.blog {
+	float:right;
+position;relative;
+	}
+ 
+.isi {
+	width:950px;
+	padding:20px;
+	margin:0 auto;
+	margin-right:0;
+	background: #fff;
+	border:1px;
+height:400px auto;
+	border-left:2px solid #ff000;
+
+}
+ 
+ 
+.isi h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+  .pilihan {
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+    margin: 15px;
+    padding: 15px 15px 17px 100px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    display: block;
+    color: black;    
+  }
+  .pilihan:hover {
+    background-color: #bc1a1a;
+    border: 1px solid #E5ECF8;
+  }
+ 
+
+ 
+@media screen and (max-width: 960px) {
+ .blog {
+	float:RIGHT;
+	margin-left:0px;
+}
+	.header {
+		position:inherit;
+	}
+ 
+	.wrap {
+		width: 100%;
+		margin:25px auto;
+	}
+	.sidebar {
+		width:100%;
+		margin:0 0 0;
+		float:center;
+	}
+ 
+	.sidebar .widget {
+		padding:1%;
+	}
+ 
+	nav.menu ul {
+		width: 100%;
+	}
+ 
+	nav.menu ul {
+		float:inherit;
+	}
+ 
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #bc1a1a;
+		border-bottom:1px solid #bc1a1a;
+		border-bottom:1px solid #bc1a1a;
+	}
+ 
+	.blog {
+		width:100%;
+	}
+ 
+	.isi {
+		float:inherit;
+		margin:0 auto 10px;
+		width:101%;
+		border:1px solid #dedede;
+		padding:5%;  
+		background: #fff;
+	}
+ 
+	.isi img {
+		max-width: 110%;
+		margin:0 0 25px -5%;
+		min-width: 110%;
+	}
+ 
+	.isi .continue-lendo:hover {
+		margin-left:0;
+	}
+ 
+ 
+}
+ 
+@media screen and (max-width: 320px) {
+ 
+	nav.menu ul a {
+		padding:10px;
+		font-size: 14px;
+	}
+ 
+	.sidebar {
+		display:auto ;
+	}
+	.post-info {
+		display:none;
+	}
+
+
+	.isi {
+		margin:0px auto;
+		
+	}
+ 
+	.isi img {
+		margin:-5% 0 25px -5%;
+	}	
+  .pilihan {
+    background-position: 15px 20px;
+    padding: 15px 15px 17px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    display: block;
+    color: black;    
+  }
+  .pilihan:hover {
+    background-color: #ECF2FA;
+    border: 1px solid #E5ECF8;
+  }
+}
